@@ -1,0 +1,9 @@
+{
+  "latest": "1.0.0",
+  "url": "https://raw.githubusercontent.com/Chairman-bits/DMarket/main/DMarket.zip",
+  "urls": [
+    "https://raw.githubusercontent.com/Chairman-bits/DMarket/main/DMarket.zip",
+    "https://raw.githubusercontent.com/Chairman-bits/DMarket/main/DMarketUpdater.zip"
+  ],
+  "appExeName": "DMarket.exe"
+}
