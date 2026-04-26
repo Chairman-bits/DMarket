@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>DMarket</RootNamespace>
+    <AssemblyName>DMarket</AssemblyName>
+    <AssemblyTitle>DMarket</AssemblyTitle>
+    <Product>DMarket</Product>
+    <FileDescription>DMarket</FileDescription>
+    <ApplicationIcon>Assets\DMarket.ico</ApplicationIcon>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <SelfContained>true</SelfContained>
+    <PublishSingleFile>true</PublishSingleFile>
+    <PublishTrimmed>false</PublishTrimmed>
+    <IncludeNativeLibrariesForSelfExtract>true</IncludeNativeLibrariesForSelfExtract>
+    <EnableCompressionInSingleFile>true</EnableCompressionInSingleFile>
+    <SatelliteResourceLanguages>en</SatelliteResourceLanguages>
+    <Version>1.0.0</Version>
+    <FileVersion>1.0.0.0</FileVersion>
+    <AssemblyVersion>1.0.0.0</AssemblyVersion>
+    <InformationalVersion>1.0.0</InformationalVersion>
+  </PropertyGroup>
+  <Target Name="CopyUpdaterAfterPublish" AfterTargets="Publish">
+    <Copy SourceFiles="..\DMarketUpdater\bin\Release\net8.0\win-x64\publish\Updater.exe" DestinationFolder="$(PublishDir)" SkipUnchangedFiles="true" Condition="Exists('..\DMarketUpdater\bin\Release\net8.0\win-x64\publish\Updater.exe')" />
+  </Target>
+</Project>

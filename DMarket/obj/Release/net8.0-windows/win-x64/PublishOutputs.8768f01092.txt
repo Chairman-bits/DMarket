@@ -1,0 +1,2 @@
+C:\Program Files\work\git\BITS\DMarket\DMarket\DMarket\bin\Release\net8.0-windows\win-x64\publish\DMarket.pdb
+C:\Program Files\work\git\BITS\DMarket\DMarket\DMarket\bin\Release\net8.0-windows\win-x64\publish\DMarket.exe
