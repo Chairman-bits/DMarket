@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Program Files\\work\\git\\BITS\\DMarket\\DMarket\\DMarketUpdater\\DMarketUpdater.csproj": {}
+    "C:\\Program Files\\work\\git\\BITS\\DMarket\\DMarket_dev\\DMarketUpdater\\DMarketUpdater.csproj": {}
   },
   "projects": {
-    "C:\\Program Files\\work\\git\\BITS\\DMarket\\DMarket\\DMarketUpdater\\DMarketUpdater.csproj": {
-      "version": "1.0.0",
+    "C:\\Program Files\\work\\git\\BITS\\DMarket\\DMarket_dev\\DMarketUpdater\\DMarketUpdater.csproj": {
+      "version": "1.0.1",
       "restore": {
-        "projectUniqueName": "C:\\Program Files\\work\\git\\BITS\\DMarket\\DMarket\\DMarketUpdater\\DMarketUpdater.csproj",
+        "projectUniqueName": "C:\\Program Files\\work\\git\\BITS\\DMarket\\DMarket_dev\\DMarketUpdater\\DMarketUpdater.csproj",
         "projectName": "Updater",
-        "projectPath": "C:\\Program Files\\work\\git\\BITS\\DMarket\\DMarket\\DMarketUpdater\\DMarketUpdater.csproj",
+        "projectPath": "C:\\Program Files\\work\\git\\BITS\\DMarket\\DMarket_dev\\DMarketUpdater\\DMarketUpdater.csproj",
         "packagesPath": "C:\\Users\\ambiv\\.nuget\\packages\\",
-        "outputPath": "C:\\Program Files\\work\\git\\BITS\\DMarket\\DMarket\\DMarketUpdater\\obj\\",
+        "outputPath": "C:\\Program Files\\work\\git\\BITS\\DMarket\\DMarket_dev\\DMarketUpdater\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -88,7 +88,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.202/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.203/PortableRuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {

@@ -16,6 +16,7 @@ internal static class InternalPortfolio
         new() { Symbol = "1419", Quantity = 200m },
         new() { Symbol = "4063", Quantity = 100m },
         new() { Symbol = "7164", Quantity = 1m },
+        new() { Symbol = "7974", Quantity = 100m },
         new() { Symbol = "8001", Quantity = 500m },
         new() { Symbol = "8058", Quantity = 50m },
         new() { Symbol = "8306", Quantity = 400m },
